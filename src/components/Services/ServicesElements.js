@@ -1,23 +1,24 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-  margin-top: 200px;
+  margin-top: 400px;
   /* padding-top: 300px; */
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #fff;
+  
 
 
   @media screen and (max-width: 768px) {
-      height: 1100px;
+      height: 2100px;
       overflow: hidden;
   }
 
   @media screen and (max-width: 480px) {
-      height: 1300px;
+      height: 2600px;
   }
 
 `
@@ -30,7 +31,7 @@ export const ServicesWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
-  background-color: #000;
+  background-color: #fff;
 
 
 
@@ -47,7 +48,7 @@ export const ServicesWrapper = styled.div`
 `
 
 export const ServicesCard = styled.div`
-  background: #fff;
+  background: #FFE9A0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +58,12 @@ export const ServicesCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
+  /* backdrop-filter: blur(50px); */
+  /* border: 2px solid transparent; */
+  
+
+
+  
 
 
   &:hover{
@@ -72,16 +79,17 @@ export const ServicesIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
-  background-color: #fff;
+  background: #FFE9A0;
+  
 
 
 `
 
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
   margin-bottom: 64px;
-  background-color: #000;
+  
 
   @media screen and (max-width: 480px) {
       font-size: 2rem;
@@ -93,11 +101,15 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
-  background-color: #fff;
+  color: #000;
+  background: #FFE9A0;
+  
 `
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
   text-align: center;
-  background-color: #fff;
+  background: #FFE9A0;
+  color: #292a2b;
 `

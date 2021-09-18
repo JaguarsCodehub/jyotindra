@@ -1,13 +1,13 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
-    background-color: rgb(209, 209, 209);
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  /* background-color: rgb(255, 255, 255); */
+}
 
-  .font-face-gm {
+/* .font-face-gm {
     font-family: "Kamerik105Cyrillic-Bold";
    }
 
@@ -17,4 +17,4 @@
   
   .font-face-book{
     font-family: "Kamerik105Cyrillic-Book";
-  }
+  } */

@@ -1,5 +1,5 @@
 .container{
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(255, 255, 255);
   height: 100vh;
 }
 
@@ -10,6 +10,7 @@
   padding-top: 0;
   display: grid;
   /* grid-gap: 20px; */
+  
   grid-template-columns: 2fr 1fr;
 }
 
@@ -77,7 +78,7 @@
 @media screen and (max-width: 768px) {
   .container{
     height: 100%;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
   }
   
   
@@ -85,7 +86,7 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     width: 100%;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
   }
   .text-wrapper{
     display: grid;

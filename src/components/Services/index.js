@@ -10,19 +10,34 @@ const Services = () => {
             <ServicesH1 className="font-face-book">My Methodlogy</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src={process.env.PUBLIC_URL+"images/svg-5.svg"}/>
-                    <ServicesH2>UI Design</ServicesH2>
-                    <ServicesP>We help reduce your fees and increase your overall skill.</ServicesP>
+                    <ServicesIcon src={process.env.PUBLIC_URL+"images/1.svg"}/>
+                    <ServicesH2>Sketch</ServicesH2>
+                    <ServicesP>I sketch out designs being in your users' shoes in order to understand their needs.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={process.env.PUBLIC_URL+"images/svg-4.svg"}/>
-                    <ServicesH2>Code & Debug</ServicesH2>
-                    <ServicesP>You can access our course and faculties anywhere in the world by our program.</ServicesP>
+                    <ServicesIcon src={process.env.PUBLIC_URL+"images/2.svg"}/>
+                    <ServicesH2>Frame</ServicesH2>
+                    <ServicesP>We define together the framework of the experience and will begin to formalize the user journey.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={process.env.PUBLIC_URL+"images/svg-7.svg"}/>
-                    <ServicesH2>Test & Deploy</ServicesH2>
-                    <ServicesP>Unlock our special membership service for 1 to 1 virtual teaching.</ServicesP>
+                    <ServicesIcon src={process.env.PUBLIC_URL+"images/3.svg"}/>
+                    <ServicesH2>Design</ServicesH2>
+                    <ServicesP>I will design and create an interactive presentation of your UI according to your workflow of idea.</ServicesP>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={process.env.PUBLIC_URL+"images/4.svg"}/>
+                    <ServicesH2>Code your design</ServicesH2>
+                    <ServicesP>I will code the frontend design of the web/app using React, Tailwind CSS etc.</ServicesP>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={process.env.PUBLIC_URL+"images/5.svg"}/>
+                    <ServicesH2>Debug & Test</ServicesH2>
+                    <ServicesP>I will solve problems occuring in the code and test it myself on various devices.</ServicesP>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={process.env.PUBLIC_URL+"images/6.svg"}/>
+                    <ServicesH2>Deploy the Code</ServicesH2>
+                    <ServicesP>Once the project has been validated.You will be able to launch and promote the product.</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
