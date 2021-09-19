@@ -14,7 +14,7 @@
 }
 .big-heading{
     font-size: 5rem; 
-    font-weight: 300;
+    font-weight: 400;
     color: #292a2b
 }
 .small-heading{
@@ -56,9 +56,9 @@
         padding-top: 40px;
         width: 500px;
     }
-    .hours{
+    /* .hours{
         border: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 460px){

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const FeatureContainer = styled.div`
     
-    background-image: linear-gradient(to left bottom, #ffe9a0, #ffce87, #ffb278, #ff9472, #ff7676);
+    background-image: linear-gradient(to left bottom, #ffe9a0, #ffce87, #ffb278, rgb(90, 72, 255), rgb(90, 72, 255));
     height: 100vh;
     max-height: 400px;
     background-position: center;
@@ -45,6 +45,7 @@ export const FeatureButton = styled(Link)`
     color: #fff;
     border-radius: 30px;
     transition: 0.2s ease-out;
+    text-decoration: none;
 
     &:hover{
         color: #000;
