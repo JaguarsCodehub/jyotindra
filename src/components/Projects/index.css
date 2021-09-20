@@ -146,6 +146,11 @@
   text-decoration: none;
 }
 
+.button-wrapper button:hover{
+	background: #FF4242;
+	/* color: #000; */
+}
+
 
 
 @media only screen and (max-width: 768px) {
