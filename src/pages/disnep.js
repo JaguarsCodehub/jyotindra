@@ -1,10 +1,10 @@
 import React,{useState} from 'react'
-import Airbnb from '../components/Airbnb'
+import Disnep from '../components/Disnep';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 
-const AirbnbPage = () => {
+const DisnepPage = () => {
 
 
     const [isOpen, setIsOpen] = useState(false)
@@ -19,10 +19,10 @@ const AirbnbPage = () => {
         <div>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle}/>
-            <Airbnb />
+            <Disnep />
             <Footer />
         </div>
     )
 }
 
-export default AirbnbPage;
+export default DisnepPage

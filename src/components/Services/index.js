@@ -3,12 +3,16 @@ import React from 'react'
 // import Icon2 from 'images/svg-1.svg'
 // import Icon3 from 'images/svg-1.svg'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from "./ServicesElements";
+import Zoom from 'react-reveal/Zoom'
 
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1 className="font-face-book">My Methodlogy</ServicesH1>
+            <Zoom top>
+                <ServicesH1 className="font-face-book">My Methodlogy</ServicesH1>
+            </Zoom>
             <ServicesWrapper>
+                <Zoom right cascade>
                 <ServicesCard>
                     <ServicesIcon src={process.env.PUBLIC_URL+"images/1.svg"}/>
                     <ServicesH2>Sketch</ServicesH2>
@@ -24,6 +28,8 @@ const Services = () => {
                     <ServicesH2>Design</ServicesH2>
                     <ServicesP>I will design and create an interactive presentation of your UI according to your workflow of idea.</ServicesP>
                 </ServicesCard>
+                </Zoom>
+                <Zoom left cascade>
                 <ServicesCard>
                     <ServicesIcon src={process.env.PUBLIC_URL+"images/4.svg"}/>
                     <ServicesH2>Code your design</ServicesH2>
@@ -39,6 +45,7 @@ const Services = () => {
                     <ServicesH2>Deploy the Code</ServicesH2>
                     <ServicesP>Once the project has been validated.You will be able to launch and promote the product.</ServicesP>
                 </ServicesCard>
+                </Zoom>
             </ServicesWrapper>
         </ServicesContainer>
     )

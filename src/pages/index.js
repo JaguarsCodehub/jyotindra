@@ -7,7 +7,7 @@ import Hero4 from '../components/Hero4'
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
 import Services from '../components/Services'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar';
 
 
 

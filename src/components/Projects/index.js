@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import "./index.css"
 import { ArrowForward,ArrowRight } from './ProjectElements'
+import Bounce from 'react-reveal/Bounce'
+import Fade from 'react-reveal/Fade'
 
 const Projects = () => {
 
@@ -16,7 +18,11 @@ const Projects = () => {
            
             <section className="projects">
                 <div class="container">
-                <h1 class="section-heading" data-outline="Projects">Recent Projects</h1>
+                <Fade bottom big>
+                <h1 class="section-heading" data-outline="Projects">
+                    Recent Projects
+                </h1>
+                </Fade>
                 <div class="all-items">
                     <div class="item">
                     <div class="left">
@@ -58,7 +64,7 @@ const Projects = () => {
                         client wanted a clean and smooth
                         design which I was able to provide at the end of the project.</p>
                         <div class="buttons">
-                        <a href="#" class="primary-btn outline external-link"> <span>Don't miss this Presentation</span>
+                        <a href="/netflix" class="primary-btn outline external-link"> <span>Don't miss this Presentation</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -104,7 +110,7 @@ const Projects = () => {
                         hard but in the end
                         we provided a good quality website that satisfied the client.</p>
                         <div class="buttons">
-                        <a href="#" class="primary-btn outline external-link"> <span>Don't miss this Presentation</span>
+                        <a href="/disnep" class="primary-btn outline external-link"> <span>Don't miss this Presentation</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -116,6 +122,7 @@ const Projects = () => {
                     <div className="last-wrapper">
                         <h1>Wanna know more about me?</h1>
                     </div>
+                    <Bounce bottom>
                     <div className="button-wrapper">
                         <button 
                             onMouseEnter={onHover}
@@ -123,6 +130,7 @@ const Projects = () => {
                             >Dive in {hover ? <ArrowForward /> : <ArrowRight />}
                         </button>
                     </div>
+                    </Bounce>
                 </div>
                 </div>
                 
