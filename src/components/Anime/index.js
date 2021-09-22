@@ -1,21 +1,21 @@
 import React from 'react'
-import "./index.css";
+import "./index.css"
 import Bounce from 'react-reveal/Bounce'
 
-const Netflix = () => {
+const Anime = () => {
     return (
         <div className="top-container">
             <div className="topheader-wrapper">
                 <Bounce bottom big>
-                <h1><b className="airbnb-text">Netflix Clone </b>built specifically for TV's and Laptops with React Js.</h1>
+                <h1><b className="anime-text">Anime Manga App </b>is a React Native App which works on both<b className="anime-text"> Android & iOS</b>.</h1>
                 </Bounce>
             </div>
             <div className="airbnb-image-wrapper">
                 <Bounce top big>
-                <a href=""><img src='../../images/netflix.png' alt="" /></a>
+                <a href=""><img src='../../images/appwrapper-1.png' alt="" /></a>
                 </Bounce>
                 <Bounce top big>
-                <a href=""><img src='../../images/netflixwrapper.png' alt="" className="airbnb-image"/></a>
+                <a href=""><img src='../../images/appwrapper-2.png' alt="" className="airbnb-image"/></a>
                 <div className="button-wrapper">
                     <a href=""><button>View Demo</button></a>
                 </div>
@@ -24,34 +24,34 @@ const Netflix = () => {
             <div class="team">
         <div class="team__wrapper">
             <div class="team__text animate-loc">
-                <p class="topline">Netflix Clone</p>
-                <h1>React Js with Styled Components</h1>
+                <p class="topline">Anime App</p>
+                <h1>React Native & Stylesheet</h1>
                 <p class="team__desc">
-                    This website was built using React, Styled Components and Firebase Authentication. Amazing Ui elements and same to same Netflix appearance is what makes this build beautiful and clean for a developer and UI designer like me. 
+                    This App was built using React Native, Expo and Stylesheet. Amazing Smooth Ui and FlatList. 
                 </p>
             </div>
             <div class="team__text animate-loc">
-                <p class="topline animate-loc">Airbnb Clone</p>
+                <p class="topline animate-loc">Anime Manga App</p>
                 <h1>What did i learn from this build?</h1>
                 <p class="team__desc animate-loc">
-                    This build taught me how important is a clean UI in todays tech world, also I tried server side rending here, the pink load bar you see at the top, Yes it's that. 
+                    This build taught me how to build an actual App, also the fact that it can work on both Android and Ios makes me more excited to work more aggresively on React Native.
                 </p>
             </div>
             <div class="team__card ">
                 {/* <p>Airbnb</p> */}
-                <img src="../../images/netflix-mob1.jpg" loading="lazy" alt="" class="team__img" />
+                <img src="../../images/book.jpg" loading="lazy" alt="" class="team__img" />
             </div>
             <div class="team__card ">
                 {/* <p>Kerela</p> */}
-                <img src="../../images/netflix-mob2.jpg" loading="lazy" alt="" class="team__img" />
+                <img src="../../images/book2.jpg" loading="lazy" alt="" class="team__img" />
             </div>
             <div class="team__card ">
                 {/* <p>France</p> */}
-                <img src="../../images/netflix-mob3.jpg" loading="lazy" alt="" class="team__img" />
+                <img src="../../images/book3.jpg" loading="lazy" alt="" class="team__img" />
             </div>
             <div class="team__card ">
                 {/* <p>React Js Build</p> */}
-                <img src="../../images/netflix-mob4.jpg" loading="lazy" alt="" class="team__img" />
+                <img src="../../images/book4.jpg" loading="lazy" alt="" class="team__img" />
             </div>
         </div>
     </div>
@@ -59,4 +59,4 @@ const Netflix = () => {
     )
 }
 
-export default Netflix
+export default Anime

@@ -1,18 +1,26 @@
 import React from 'react'
 import "./index.css"
+import Bounce from 'react-reveal/Bounce';
+
 
 const disnep = () => {
     return (
         <div className="top-container">
             <div className="topheader-wrapper">
+                <Bounce bottom big>
                 <h1><b className="disnep-text">Disnep Hotstar </b>with a User Interface you will <b className="disnep-text">Fall in Love </b>with.</h1>
+                </Bounce>
             </div>
             <div className="airbnb-image-wrapper">
+                <Bounce top big>
                 <a href=""><img src='../../images/disnep.png' alt="" /></a>
+                </Bounce>
+                <Bounce top big>
                 <a href=""><img src='../../images/disnepwrapper.png' alt="" className="airbnb-image"/></a>
                 <div className="button-wrapper">
                     <a href=""><button>View Demo</button></a>
                 </div>
+                </Bounce>
             </div>
             <div class="team">
         <div class="team__wrapper">
