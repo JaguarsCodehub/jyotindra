@@ -6,7 +6,7 @@ import airbnb from './pages/airbnb';
 import DisnepPage from './pages/disnep';
 import NetflixPage from './pages/netflix';
 import AnimePage from './pages/anime';
-
+import PlaygroundPage from './pages/playground'
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
           <Route path="/disnep" component={DisnepPage} exact/>
           <Route path="/netflix" component={NetflixPage} exact/>
           <Route path="/anime" component={AnimePage} exact/>
+          <Route path="/playground" component={PlaygroundPage} exact/>
 
         </Switch>
       </Router>

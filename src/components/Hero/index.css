@@ -11,12 +11,12 @@
   display: grid;
   /* grid-gap: 20px; */
   
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(2,1fr);
 }
 
 .text-wrapper{
     
-    position: relative;
+    /* position: relative; */
     display: grid;
     min-height: 530px;
     padding: 40px;
@@ -24,29 +24,35 @@
 }
 
 .text-wrapper h1{
-    font-size: 4rem;
-    font-weight: 400;
-    color: #292a2b;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #1f1f1f;
 }
 
 .text-wrapper h1 b{
-  color: rgb(255, 74, 42);
+  color: rgb(255, 85, 85);
   font-weight: bold;
 }
+
+
 
 .image-wrapper{
   z-index: 1;
   /* padding-top: 50px; */
-  padding-left: 40px;
-  position: relative;
-  min-height: 530px;
+  /* padding-left: 40px; */
+  /* position: relative; */
+  min-height: 330px;
   margin-top: 20px;
-  margin-right: 40px;
+  /* margin-left: 40px; */
+  /* width: 500px;
+  height: 800px; */
 }
 
 .image-wrapper img{
   width: 100%;
-  height: 100%;
+  height: 500px;
+  border-radius: 15px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 /* Mobile Responsive */
@@ -60,7 +66,7 @@
   }
   .text-wrapper h1{
     font-size: 3.8rem;
-    font-weight: 500;
+    font-weight: bold;
     width: 800px;
   }
   .image-wrapper{
@@ -92,13 +98,13 @@
     display: grid;
   }
   .text-wrapper h1{
-    font-size: 3.5rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: bold;
     width: 100%;
   }
   .image-wrapper{
     position: relative;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     /* min-height: 530px; */
   }
@@ -121,7 +127,7 @@
   }
   .text-wrapper h1{
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: bold;
     width: 100%;
   }
   .image-wrapper{
@@ -132,7 +138,7 @@
     /* padding-right: 40px; */
   }
   .image-wrapper img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
 }
