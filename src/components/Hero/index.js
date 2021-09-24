@@ -21,7 +21,7 @@ const Hero = () => {
                 </Fade>
                 <Fade top>
                 <div className="image-wrapper">
-                    <img src='../../images/scene.png' alt="" />
+                    <img src='../../images/brainmain6.png' alt="" />
                 </div>
                 </Fade>
             </div>

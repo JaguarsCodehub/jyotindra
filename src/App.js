@@ -7,6 +7,7 @@ import DisnepPage from './pages/disnep';
 import NetflixPage from './pages/netflix';
 import AnimePage from './pages/anime';
 import PlaygroundPage from './pages/playground'
+import ConnectPage from './pages/connect';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/netflix" component={NetflixPage} exact/>
           <Route path="/anime" component={AnimePage} exact/>
           <Route path="/playground" component={PlaygroundPage} exact/>
+          <Route path="/connect" component={ConnectPage} exact/>
 
         </Switch>
       </Router>
