@@ -3,21 +3,22 @@ import { Link } from 'react-router-dom';
 
 
 export const Container = styled.div`
-  min-height: 592px;
-  position: fixed;
+  /* min-height: 592px; */
+  height: 100%;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
   z-index: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: #FF6B6B;
 
 `;
 
 export const Icon = styled(Link)`
   margin-left: 32px;
-  margin-top: 72px;
+  margin-top: 32px;
   text-decoration: none;
   color: #fff;
   font-weight: 700;
@@ -107,7 +108,7 @@ export const FormMessage = styled.input`
 `
 
 
-export const FormButton = styled(Link)`
+export const FormButton = styled.button`
   background: #FF2E2E;
   padding: 16px 0;
   border: none;

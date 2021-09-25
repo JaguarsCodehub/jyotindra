@@ -7,7 +7,7 @@ const Playground = () => {
         <div className="top-container">
             <div className="topheader-wrapper">
                 <Bounce bottom big>
-                <h1><b className="anime-text">Chechkout My Code + Design Projects.</b></h1>
+                <h1><b className="anime-text">Checkout My Code + Design Projects.</b></h1>
                 </Bounce>
             </div>
             <div className="airbnb-image-wrapper">

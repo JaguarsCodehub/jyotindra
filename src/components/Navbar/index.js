@@ -63,7 +63,7 @@ const Navbar = ({toggle}) => {
                       >Projects</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to="discover"
+                    <NavLinks to="/resume"
                     smooth={true}
                     duration={500}
                     spy={true}
