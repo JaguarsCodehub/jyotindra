@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const FeatureContainer = styled.div`
     
-    background-image: linear-gradient(to left bottom, #ffe9a0, #ffce87, #ffb278, rgb(90, 72, 255), rgb(90, 72, 255));
+    background-image: linear-gradient(to right, #30CFD0 0%, #330867 100%);
     height: 100vh;
     max-height: 400px;
     background-position: center;

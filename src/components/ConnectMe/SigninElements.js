@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   /* min-height: 592px; */
-  height: 100%;
+  height: 100vh;
   /* position: fixed; */
   bottom: 0;
   left: 0;

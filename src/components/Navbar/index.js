@@ -47,7 +47,7 @@ const Navbar = ({toggle}) => {
         <>
           <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to="/" onClick={toggleHome}> Jyotindra KT </NavLogo>
+                <NavLogo to="/" onClick={toggleHome}> jyotindra kt. </NavLogo>
                 <MobileIcon onClick={toggle}>
                   <FaBars/>
                 </MobileIcon>
@@ -71,6 +71,16 @@ const Navbar = ({toggle}) => {
                     offset={-80}
                     activeClass="active"
                     >Resume</NavLinks>
+                  </NavItem>
+                  <NavItem>
+                    <NavLinks to="process"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    activeClass="active"
+                    >Process</NavLinks>
                   </NavItem>
                   <NavItem>
                     <NavLinks to="services"
