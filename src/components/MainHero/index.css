@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 .wrapper{
     padding: 30px;
     text-align: center;
@@ -74,5 +76,8 @@ background: linear-gradient(to right, #191919 0%, #F2F7C1 100%);
     .big-2-header{
         margin-top: 5px;
         font-size:3rem;
+    }
+    .info-p{
+        font-size: 0.9rem;
     }
 }
