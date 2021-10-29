@@ -16,9 +16,7 @@ const Anime = () => {
                 </Bounce>
                 <Bounce top big>
                 <a href=""><img src='../../images/appwrapper-2.png' alt="" className="airbnb-image"/></a>
-                <div className="button-wrapper">
-                    <a href=""><button>View Demo</button></a>
-                </div>
+                
                 </Bounce>
             </div>
             <div class="team">

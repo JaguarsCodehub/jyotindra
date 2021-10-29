@@ -124,11 +124,13 @@ const Projects = () => {
                     </div>
                     <Bounce bottom>
                     <div className="button-wrapper">
+                        <a href="https://twitter.com/jyotindrakt">
                         <button 
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
-                            >Dive in {hover ? <ArrowForward /> : <ArrowRight />}
+                            >Let's Chat ! 
                         </button>
+                        </a>
                     </div>
                     </Bounce>
                 </div>

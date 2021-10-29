@@ -82,16 +82,7 @@ const Navbar = ({toggle}) => {
                     activeClass="active"
                     >Process</NavLinks>
                   </NavItem>
-                  <NavItem>
-                    <NavLinks to="services"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
-                    activeClass="active"
-                    >Linkedin</NavLinks>
-                  </NavItem>
+                  
                   
                 </NavMenu>
                 <NavBtn>

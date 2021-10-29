@@ -15,12 +15,12 @@ const Airbnb = () => {
             
             <div className="airbnb-image-wrapper">
                 <Bounce top big>
-                <a href=""><img src='../../images/airbnb.png' alt="" /></a>
+                <a ><img src='../../images/airbnb.png' alt="" /></a>
                 </Bounce>
                 <Bounce top big>
-                <a href=""><img src='../../images/airbnb-wrapper.png' alt="" className="airbnb-image"/></a>
+                <a ><img src='../../images/airbnb-wrapper.png' alt="" className="airbnb-image"/></a>
                 <div className="button-wrapper">
-                    <a href=""><button>View Demo</button></a>
+                    <a href="https://airbnb-clone-kfwbb48o4-jaguarscodehub.vercel.app/"><button>View Demo</button></a>
                 </div>
                 </Bounce>
                 

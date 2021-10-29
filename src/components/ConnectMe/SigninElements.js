@@ -109,7 +109,7 @@ export const FormMessage = styled.input`
 
 
 export const FormButton = styled.button`
-  background: #FF2E2E;
+  background: #2CE1A9;
   padding: 16px 0;
   border: none;
   justify-content: center;
